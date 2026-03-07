@@ -1,0 +1,1047 @@
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Document</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+        <style>
+
+        *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+        }
+       body{
+font-family: Arial, sans-serif;
+line-height:1.6;
+
+background-image:url(3607424.jpg);
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+background-attachment:fixed;
+
+}
+  
+
+  nav a{text-decoration: none;}
+
+        .Header .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 80px;
+
+        }
+        .Header nav{
+display:flex;
+gap:20px;
+}
+
+        img{max-width: 100%;}
+
+        .container{
+        max-width:1500px;
+        margin:auto;
+        padding:0 20px;
+        }
+
+        .Hero_Text{max-width:300px;
+        padding:0 20px;}
+
+        .Hero_Image{
+
+        max-width:500px;;
+        padding:0 20px;
+        margin-top: 50px;
+        }
+
+       
+        .Hero_Image img{
+        width:300px;
+        height:auto;
+        border-radius:12px;
+        }
+
+        #About{
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        gap:80px;
+        margin-top:100px;
+    border: 1px solid gainsboro ;   
+    border:1px solid rgba(255,255,255,0.15);
+ 
+    border-radius: 20px;
+ width: 90%;
+ margin: auto; 
+}
+
+
+        .About_Image{
+
+        max-width:900px;
+        margin:auto;
+        padding:0 20px;
+        margin-top: 50px;
+
+        }
+
+        .About_Text{
+max-width:600px;
+margin:auto;
+padding:0 20px;
+text-align:center;
+font-size: larger;
+font-weight: bold;
+}
+
+        #Hero .container{
+        display:flex;
+        align-items:center;
+        justify-content:space-between;
+        justify-content: space-evenly;
+        }
+        .About_Image{width: 300px;
+        text-align: center;
+        height: 300px;
+            margin-right: 100px;
+        }
+        .About_Image img{
+        width:250px;
+        border-radius:15px;
+        }
+
+
+        #Skills{
+        text-align: center;
+        border: 1px solid gainsboro;
+border:1px solid rgba(255,255,255,0.15);
+        border-radius: 20px;
+        width: 70%;
+        margin: auto;
+        }
+        #Skills .container{
+        display:flex;
+        gap:60px;
+        justify-content:center;
+        padding-right: 50px;
+padding-bottom: 10px;
+        }
+
+
+        #Skills .title{
+        text-align:center;
+        margin-bottom:30px;
+        }
+
+
+        #Skills ul{
+padding-left:15px;
+text-align:left;
+}
+      #Project{
+border:1px solid gainsboro;
+border:1px solid rgba(255,255,255,0.15);
+border-radius:20px;
+width:70%;
+margin:auto;
+
+
+
+
+}
+
+
+#Project .divCont p{
+
+font-size:14px;
+line-height:1.7;   
+text-align:left;  
+
+margin-top:10px;
+
+}
+
+
+#Project .divCont span{
+
+display:block;
+font-size:17px;
+font-weight:bold;
+
+margin-bottom:5px;
+
+}
+
+
+#Project i{
+
+margin-right:6px;
+margin-top:5px;
+padding-bottom: 5px;
+
+}
+
+
+#Project .divCont br{
+line-height:2;
+
+}
+
+#Project .container{
+display:flex;
+justify-content:center;
+gap:60px;
+}
+        
+        #Project .title1{
+
+            text-align: center;
+            margin-top: 20px;
+            
+        }
+     #Project .divCont{
+
+width:280px;
+padding:25px;
+
+border:1px solid gainsboro;
+border-radius:12px;
+
+background:rgba(0,0,0,0.35);
+
+transition:0.3s;
+
+}
+
+
+#Project .divCont:hover{
+
+transform:scale(1.05);
+
+background:rgba(0,0,0,0.55);
+
+box-shadow:0 10px 20px rgba(0,0,0,0.4);
+border-color: #00e0ff;
+
+}
+
+        .divCont img{
+        width: 150px;
+        height: 100px;
+align-items: center;
+        }
+
+        #Education{
+border:1px solid rgba(255,255,255,0.16);
+
+border-radius: 20px;
+width: 70%;
+margin: auto;
+
+        }
+
+    #Education .container{
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+
+    }
+
+    #Education .title{
+
+
+    text-align: center;
+
+    }
+
+
+    #Experience .container{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+
+    }
+    #Experience .title{
+
+        text-align: center;
+    }
+
+    .Contact .container{
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    }
+
+
+    .Contact .title{text-align: center;}
+
+
+
+    .btn{
+    background:darkturquoise;
+    color:black;
+    font-weight: bold;
+    padding:10px 20px;
+    border-radius:8px;
+    text-decoration:none;
+    }
+
+
+    #Experience ul ,h3,p{
+    list-style: disc;
+    margin-top:15px;
+    text-align:left;
+    max-width:600px;
+    margin:auto;
+    }
+
+#About{margin-bottom: 20px;
+width: 70%;}
+
+.About_Text a{
+display:inline-block;
+margin-top:20px;
+}
+
+   
+
+
+#Education{margin-bottom: 20px;
+margin-top: 20px;
+}
+#Experience{margin-bottom: 20px;
+margin: auto;
+border-radius: 20px;
+width: 70%;
+}
+#Education p{
+margin-top:8px;
+}
+
+#Experience{
+
+
+border:1px solid rgba(255,255,255,0.15);
+
+
+}
+
+#Experience .container{
+max-width:600px;
+margin:auto;
+margin-top:20px;
+}
+
+#Experience ul{
+margin-top:15px;
+padding-left:20px;
+}
+
+
+.Contact{border:1px solid rgba(255,255,255,0.15);
+
+width: 70%;
+border-radius: 20px;
+margin: auto;
+margin-bottom: 10px;
+margin-top: 20px;
+
+}
+
+
+.social-icons{
+display:flex;
+justify-content:center;
+gap:15px;
+margin-top:15px;
+}
+
+.social-icons img{
+width:25px;
+}
+
+
+#Skills{
+
+width:70%;
+margin:auto;
+text-align:center;
+
+
+}
+
+.skills-container{
+
+display:flex;
+justify-content:center;
+gap:40px;
+flex-wrap:wrap;
+
+}
+
+
+.skill-box{
+
+background:rgba(0,0,0,0.6);
+padding:25px;
+border-radius:12px;
+width:230px;
+
+transition:0.4s;
+overflow:hidden;
+
+border:1px solid rgba(255,255,255,0.2);
+
+}
+
+.skill-box:hover{
+
+transform:translateY(-8px);
+border-color: #00e0ff;
+
+
+}
+
+
+.skills{
+
+max-height:0;
+opacity:0;
+
+transition:0.4s;
+
+
+}
+
+.skill-box:hover .skills{
+
+max-height:300px;
+opacity:1;
+margin-top:15px;
+
+
+
+
+}
+
+
+.skill{
+
+text-align:left;
+margin-bottom:12px;
+
+
+}
+
+
+.skill i{
+
+margin-right:6px;
+color:#00e0ff;
+
+}
+#Project i{margin-right:6px;
+color:#00e0ff;}
+
+
+.bar{
+
+height:8px;
+background:#333;
+border-radius:10px;
+margin-top:5px;
+
+}
+
+
+.progress{
+
+height:100%;
+width:0;
+border-radius:10px;
+background:#00e0ff;
+
+transition:0.7s;
+
+}
+
+
+.skill-box:hover .html{
+width:90%;
+}
+
+.skill-box:hover .css{
+width:85%;
+}
+
+.skill-box:hover .bootstrap{
+width:80%;
+}
+
+.skill-box:hover .csharp{
+width:85%;
+}
+
+.skill-box:hover .asp{
+width:80%;
+}
+
+.skill-box:hover .sql{
+width:75%;
+}
+
+.skill-box:hover .git{
+width:80%;
+}
+
+.skill-box:hover .github{
+width:85%;
+}
+
+
+
+
+
+
+    @media (max-width:1024px){
+
+    .Header .container{
+    padding:20px 40px;
+    }
+
+
+    #Hero .container{
+    gap:40px;
+    }
+
+    .Hero_Image img{
+    width:250px;
+    }
+
+
+    #Skills .container{
+    gap:40px;
+    }
+
+
+    #Project .container{
+    gap:40px;
+    }
+
+
+    #Project .divCont{
+    width:220px;
+    
+    }
+
+    }
+
+    @media (max-width:768px){
+
+    .Header .container{
+    flex-direction:column;
+    gap:15px;
+    padding:20px;
+    text-align:center;
+    }
+
+    .Header nav{
+    flex-wrap:wrap;
+    justify-content:center;
+    }
+
+
+    #Hero .container{
+    flex-direction:column;
+    text-align:center;
+    }
+
+    .Hero_Text{
+    max-width:100%;
+    }
+
+    .Hero_Image{
+    margin-top:20px;
+    }
+
+    .Hero_Image img{
+    width:200px;
+    }
+
+
+    #About{
+    flex-direction:column;
+    text-align:center;
+    gap:30px;
+    }
+
+   #About a{
+display:inline-block;
+margin-top:20px;
+}
+
+
+    #Skills .container{
+    flex-direction:column;
+    gap:30px;
+    padding-right:0;
+    }
+
+
+    #Project .container{
+    flex-direction:column;
+    align-items:center;
+    }
+
+
+    #Project .divCont{
+    width:80%;
+    }
+
+    #Project .divCont img{
+    display:block;
+    margin:auto;
+    }
+
+    #Project .divCont p{text-align: center ;
+
+    padding-top: 15px;
+
+    }
+
+
+    #Experience .container{
+    text-align:center;
+    }
+    .btn{
+
+    align-items: center;
+    align-content: center;
+    }
+    .about{
+    display:flex;
+    justify-content:center;
+}
+
+
+#Skills ul{
+padding-left:20px;
+display:inline-block;
+text-align:left;
+}
+
+
+
+    }
+
+    .fade-in{
+opacity:0;
+transform:translateY(30px);
+animation:fadeUp 1s ease forwards;
+}
+
+@keyframes fadeUp{
+
+from{
+opacity:0;
+transform:translateY(30px);
+}
+
+to{
+opacity:1;
+transform:translateY(0);
+}
+}
+
+#About{animation-delay:0.2s;}
+#Skills{animation-delay:0.5s;}
+#Project{animation-delay:0.7s;}
+#Education{animation-delay:0.9s;}
+#Experience{animation-delay:1.5s;}
+.Contact{animation-delay:1.7s;}
+
+
+.typing{
+overflow:hidden;
+white-space:nowrap;
+border-right:3px solid #00e0ff;
+width:0;
+
+animation:typing 3s steps(14) forwards, blink 0.7s infinite;
+}
+
+.typing2{
+color:#00e0ff;
+
+overflow:hidden;
+white-space:nowrap;
+border-right:3px solid #00e0ff;
+width:0;
+
+animation:typing2 3s steps(14) forwards, blink 0.7s infinite;
+animation-delay:3s;
+}
+
+@keyframes typing{
+
+from{
+width:0;
+}
+
+to{
+width:14ch;
+}
+
+}
+
+@keyframes typing2{
+
+from{
+width:0;
+}
+
+to{
+width:14ch;
+}
+
+}
+
+@keyframes blink{
+
+0%{border-color:transparent;}
+50%{border-color:#00e0ff;}
+100%{border-color:transparent;}
+
+}
+
+.fadeText{
+opacity:0;
+animation:showText 2s forwards;
+animation-delay:6s;
+}
+
+@keyframes showText{
+to{
+opacity:1;
+}
+}
+
+        </style>
+
+        </head>
+        <form>
+        <body>
+
+            <header class="Header ">
+
+        <div class="container">
+            
+
+        <h2> Hussam portofilo  </h2>
+
+        
+        
+        <nav ><a href="#Skills">Skills </a> 
+        <a href="#About">About  </a> 
+        <a href="#Project ">Project  </a> 
+        <a href="#Contact1 ">Contact  </a> 
+        <a href="#Education">Education </a> 
+        </nav>
+
+        </div>
+
+            </header>
+
+        <section id="Hero" > 
+            <div class="container" >
+            <div class="Hero_Text">
+        <h1 class="typing">Hi I'm Hussam </h1>
+        
+
+<h2 class="typing2">Web Developer</h2>
+    <p style="font-size: 25px;" class="fadeText" >    I build modern wep Applications
+        <br>
+        Using clean and scalable code 
+        </p>
+
+        <br>
+    <a href="#Project">
+
+
+    <button type="button" class="btn">View To my project </button>
+
+
+    </a>
+        
+            </div>
+            
+            <div  class="Hero_Image">
+        
+                <img src="Hussam1.png.jpeg">
+
+
+            </div>
+
+
+        </div>
+        </section>
+
+
+        <section id="About"  class="fade-in">
+
+
+        <div class="About_Text">
+        <h2 style="text-align:center;padding-bottom:20px;">About Me</h2>
+
+<p>
+I am a passionate web developer who enjoys building modern
+and responsive web applications. I focus on writing clean
+and scalable code using ASP.NET and solving real world problems.
+</p>    
+
+        <br>
+        <a href="Hussam_Aldairyah-CV .docx" target="_blank" class="btn    "  >cv</a>
+
+        <br>
+        </div>
+
+        </section>
+
+
+
+
+
+        </section>
+
+
+       <section id="Skills"  class="fade-in">
+
+<h2>Skills</h2>
+
+<div class="skills-container">
+
+<div class="skill-box">
+
+<h3>Front End</h3>
+
+<div class="skills">
+
+<div class="skill">
+<span><i class="fa-brands fa-html5"></i> HTML</span>
+<div class="bar">
+<div class="progress html"></div>
+</div>
+</div>
+
+<div class="skill">
+<span><i class="fa-brands fa-css3-alt"></i> CSS</span>
+<div class="bar">
+<div class="progress css"></div>
+</div>
+</div>
+
+<div class="skill">
+<span><i class="fa-brands fa-bootstrap"></i> Bootstrap</span>
+<div class="bar">
+<div class="progress bootstrap"></div>
+</div>
+</div>
+
+</div>
+
+</div>
+
+<div class="skill-box">
+
+<h3>Backend</h3>
+
+<div class="skills">
+
+<div class="skill">
+<span><i class="fa-solid fa-code"></i> C#</span>
+<div class="bar">
+<div class="progress csharp"></div>
+</div>
+</div>
+
+<div class="skill">
+<span><i class="fa-solid fa-layer-group"></i> ASP.NET MVC</span>
+<div class="bar">
+<div class="progress asp"></div>
+</div>
+</div>
+
+<div class="skill">
+<span><i class="fa-solid fa-database"></i> SQL Server</span>
+<div class="bar">
+<div class="progress sql"></div>
+</div>
+</div>
+
+</div>
+
+</div>
+
+<div class="skill-box">
+
+<h3>Tools</h3>
+
+<div class="skills">
+
+<div class="skill">
+<span><i class="fa-brands fa-git-alt"></i> Git</span>
+<div class="bar">
+<div class="progress git"></div>
+</div>
+</div>
+
+<div class="skill">
+<span><i class="fa-brands fa-github"></i> GitHub</span>
+<div class="bar">
+<div class="progress github"></div>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+        <section id="Project"  class="fade-in">
+
+        <h2 class="title1">Projects</h2>
+
+        <div  class="container">
+
+
+        <div class="divCont"> 
+
+            <img src="Screenshot 2026-03-06 225552.png">
+        <p>  <span style="font-weight: bold;"> Exchange Hub </span>
+            <br>
+          <i class="fa-solid fa-layer-group">  Asp   </i>    <i class="fa-solid fa-database">  sql server  </i>
+    <br>
+
+
+    Exchange Hub Websit for bay and sell the broducts and 
+    have feture swap without Payment
+
+
+        </p>
+        </div>
+
+
+
+        <div class="divCont">
+            
+            <img src="Screenshot 2026-03-06 225322.png">
+            <p>  <span style="font-weight: bold;">  Snck Up</span> 
+            <br>
+<i class="fa-brands fa-php"> PHP </i> <br> <i class="fa-solid fa-database">My admin</i>    <br>
+
+    This websit for student to order the food from cafftirya to free time and effort 
+
+
+        </p>
+        <br>
+
+
+        
+        </div>
+        </div>
+        </section>
+
+
+        <section id="Education" class="fade-in">
+
+<h2 class="title">Education</h2>
+
+<div class="container">
+
+<div class="edu-box">
+
+<h3>Al-Zaytoonah University</h3>
+
+<p><strong>Major:</strong> Software Engineering</p>
+
+<p><strong>GPA:</strong> 83.5</p>
+
+<p><strong>Graduation Year:</strong> 2026</p>
+
+</div>
+
+</div>
+</section>
+
+    <section id="Experience" class="fade-in">
+
+    <h2 class="title">Experience</h2>
+
+    <div class="container">
+
+    <h3>Orange Coding Academy – Internship</h3>
+
+<p><strong>Duration:</strong> 3 Months</p>
+
+<ul>
+<li>Completed training in Full Stack Web Development.</li>
+<li>Built responsive interfaces using HTML, CSS, JavaScript, and Bootstrap.</li>
+<li>Developed backend applications using ASP.NET MVC.</li>
+<li>Worked with SQL Server for database design and queries.</li>
+<li>Improved teamwork, communication, and presentation skills.</li>
+</ul>
+
+    </div>
+
+    </section>
+
+        <footer id="Contact1"  class="Contact  fade-in ">
+            <h2  class="title" style="font-size: 15px;">To contact with me for any Opportunity</h2>
+            <div class="container">
+                <ul style="list-style: none; font-size: 12px;">
+
+        <li >Email : hussamaldareh095@gmail.com</li>
+        <li> Phone Number : 0788664154  </li>
+        
+
+        </ul>
+
+
+            </div>
+
+
+<div class="social-icons">
+
+<a href="https://github.com/HussamAldareh" target="_blank">
+<img src="github.png">
+</a>
+
+<a href="https://www.linkedin.com/in/hussamaldairyah" target="_blank">
+<img src="linked.png">
+</a>
+
+</div>
+
+
+        </footer>
+
+        </body>
+        </form>
+        </html> 
