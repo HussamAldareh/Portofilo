@@ -1,0 +1,920 @@
+
+html{
+scroll-behavior:smooth;
+}
+
+        *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+        }
+       body{
+font-family: Arial, sans-serif;
+line-height:1.6;
+
+background-image:url(3607424.jpg);
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+background-attachment:fixed;
+
+}
+  
+
+  nav a{text-decoration: none;}
+
+        .Header .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 80px;
+
+        }
+        .Header nav{
+display:flex;
+gap:20px;
+}
+
+        img{max-width: 100%;}
+
+        .container{
+        max-width:1500px;
+        margin:auto;
+        padding:0 20px;
+        }
+
+        .Hero_Text{max-width:300px;
+        padding:0 20px;}
+
+        .Hero_Image{
+
+        max-width:500px;;
+        padding:0 20px;
+        margin-top: 50px;
+        }
+
+       
+        .Hero_Image img{
+        width:300px;
+        height:auto;
+        border-radius:12px;
+        }
+
+        #About{
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        gap:80px;
+        margin-top:100px;
+    border: 1px solid gainsboro ;   
+    border:1px solid rgba(255,255,255,0.15);
+ 
+    border-radius: 20px;
+ width: 90%;
+ margin: auto; 
+}
+
+
+        .About_Image{
+
+        max-width:900px;
+        margin:auto;
+        padding:0 20px;
+        margin-top: 50px;
+
+        }
+
+        .About_Text{
+max-width:600px;
+margin:auto;
+padding:0 20px;
+text-align:center;
+font-size: larger;
+font-weight: bold;
+}
+
+        #Hero .container{
+        display:flex;
+        align-items:center;
+        justify-content:space-between;
+        justify-content: space-evenly;
+        }
+        .About_Image{width: 300px;
+        text-align: center;
+        height: 300px;
+            margin-right: 100px;
+        }
+        .About_Image img{
+        width:250px;
+        border-radius:15px;
+        }
+
+
+        #Skills{
+        text-align: center;
+        border: 1px solid gainsboro;
+border:1px solid rgba(255,255,255,0.15);
+        border-radius: 20px;
+        width: 70%;
+        margin: auto;
+        }
+        #Skills .container{
+        display:flex;
+        gap:60px;
+        justify-content:center;
+        padding-right: 50px;
+padding-bottom: 10px;
+        }
+
+
+        #Skills .title{
+        text-align:center;
+        margin-bottom:30px;
+        }
+
+
+        #Skills ul{
+padding-left:15px;
+text-align:left;
+}
+      #Project{
+border:1px solid gainsboro;
+border:1px solid rgba(255,255,255,0.15);
+border-radius:20px;
+width:70%;
+margin:auto;
+
+
+
+
+}
+
+
+#Project .divCont p{
+
+font-size:14px;
+line-height:1.7;   
+text-align:left;  
+
+margin-top:10px;
+
+}
+
+
+#Project .divCont span{
+
+display:block;
+font-size:17px;
+font-weight:bold;
+
+margin-bottom:5px;
+
+}
+
+
+#Project i{
+
+margin-right:6px;
+margin-top:5px;
+padding-bottom: 5px;
+
+}
+
+
+#Project .divCont br{
+line-height:2;
+
+}
+
+#Project .container{
+display:flex;
+justify-content:center;
+gap:60px;
+}
+        
+        #Project .title1{
+
+            text-align: center;
+            margin-top: 20px;
+            
+        }
+     #Project .divCont{
+
+width:280px;
+padding:25px;
+
+border:1px solid gainsboro;
+border-radius:12px;
+
+background:rgba(0,0,0,0.35);
+margin-bottom: 20px;
+transition:0.3s;
+
+}
+
+
+#Project .divCont:hover{
+
+transform:scale(1.05);
+
+background:rgba(0,0,0,0.55);
+
+box-shadow:0 10px 20px rgba(0,0,0,0.4);
+border-color: #00e0ff;
+
+}
+
+        .divCont img{
+        width: 100%;
+        height: 100px;
+align-items: center;
+        }
+
+        #Education{
+border:1px solid rgba(255,255,255,0.16);
+
+border-radius: 20px;
+width: 70%;
+margin: auto;
+
+        }
+
+    #Education .container{
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+
+    }
+
+
+.fade-in .container{display: flex;}
+
+
+    #Education .title{
+
+
+    text-align: center;
+
+    }
+
+
+
+
+
+    #Experience .container{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+
+    }
+    #Experience .title{
+
+        text-align: center;
+    }
+
+    .Contact .container{
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    }
+
+
+    .Contact .title{text-align: center;}
+
+
+
+    .btn{
+    background:darkturquoise;
+    color:black;
+    font-weight: bold;
+    padding:10px 20px;
+    border-radius:8px;
+    text-decoration:none;
+    }
+
+
+    #Experience ul ,h3,p{
+    list-style: disc;
+    margin-top:15px;
+    text-align:left;
+    max-width:600px;
+    margin:auto;
+    }
+
+#About{margin-bottom: 20px;
+width: 70%;}
+
+.About_Text a{
+display:inline-block;
+margin-top:20px;
+}
+#Experience .container{
+position:relative;
+padding-left:40px;
+}
+
+#Experience .container::before{
+content:"";
+position:absolute;
+left:10px;
+top:0;
+width:3px;
+height:100%;
+background:#00e0ff;
+}
+
+#Experience ul li{
+margin-bottom:10px;
+position:relative;
+}
+
+#Experience ul li::before{
+content:"";
+position:absolute;
+left:-18px;
+top:7px;
+width:10px;
+height:10px;
+background:#00e0ff;
+border-radius:50%;
+}
+#Experience .container{
+background:rgba(0,0,0,0.4);
+padding:25px;
+border-radius:12px;
+margin-top:20px;
+}
+   
+
+
+#Education{margin-bottom: 20px;
+margin-top: 20px;
+}
+#Experience{margin-bottom: 20px;
+margin: auto;
+border-radius: 20px;
+width: 70%;
+}
+#Education p{
+margin-top:8px;
+}
+
+#Experience{
+
+
+border:1px solid rgba(255,255,255,0.15);
+
+
+}
+
+#Experience h2{
+color:darkturquoise;
+margin-bottom:15px;
+}
+#Experience .container{
+max-width:600px;
+margin:auto;
+margin-top:20px;
+}
+
+#Experience ul{
+margin-top:15px;
+padding-left:20px;
+}
+
+
+footer{
+border:1px solid rgba(255,255,255,0.15);
+width:70%;
+margin:auto;
+border-radius:20px;
+padding:30px;
+text-align:center;
+background:rgba(0,0,0,0.4);
+}
+
+.footer-container{
+display:flex;
+justify-content:space-between;
+align-items:center;
+flex-wrap:wrap;
+margin-top:20px;
+}
+
+.contact-info p{
+margin:8px 0;
+font-size:16px;
+}
+
+.social-icons a{
+font-size:24px;
+margin:0 10px;
+color:#00e0ff;
+transition:0.3s;
+}
+
+.social-icons a:hover{
+transform:scale(1.2);
+color:white;
+}
+
+.copyright{
+margin-top:20px;
+font-size:14px;
+opacity:0.7;
+}
+
+
+
+.top-btn{
+position:fixed;
+bottom:30px;
+right:30px;
+
+background:#00e0ff;
+color:black;
+
+width:45px;
+height:45px;
+
+display:flex;
+align-items:center;
+justify-content:center;
+
+border-radius:50%;
+font-size:18px;
+
+text-decoration:none;
+
+box-shadow:0 6px 15px rgba(0,0,0,0.4);
+
+transition:0.3s;
+}
+
+.top-btn:hover{
+transform:translateY(-5px);
+background:white;
+}
+
+.social-icons{
+display:flex;
+justify-content:center;
+gap:15px;
+margin-top:15px;
+}
+
+.social-icons img{
+width:25px;
+}
+
+
+#Skills{
+
+width:70%;
+margin:auto;
+text-align:center;
+
+
+}
+
+.skills-container{
+
+display:flex;
+justify-content:center;
+gap:40px;
+flex-wrap:wrap;
+
+}
+
+
+.skill-box{
+
+background:rgba(0,0,0,0.6);
+padding:25px;
+border-radius:12px;
+width:230px;
+
+transition:0.4s;
+overflow:hidden;
+
+border:1px solid rgba(255,255,255,0.2);
+
+}
+
+.skill-box:hover{
+
+transform:translateY(-8px);
+border-color: #00e0ff;
+
+
+}
+
+
+.skills{
+
+max-height:0;
+opacity:0;
+
+transition:0.4s;
+
+
+}
+
+.skill-box:hover .skills{
+
+max-height:300px;
+opacity:1;
+margin-top:15px;
+
+
+
+
+}
+
+
+#Skills{
+width:70%;
+margin:auto;
+text-align:center;
+margin-bottom:20px;
+align-items: center;
+padding-bottom: 20px;
+padding-top: 10px;
+}
+
+
+.skill{
+
+text-align:center;
+margin: bottom 20px;   
+
+
+}
+
+
+.skill i{
+
+margin-right:6px;
+color:#00e0ff;
+
+}
+#Project i{margin-right:6px;
+color:#00e0ff;}
+
+
+.skill-box h3{text-align: center;
+
+
+}
+
+
+.BtunInHero{
+display:flex;
+gap:15px;
+margin-top:15px;
+}
+
+.btn{
+background:darkturquoise;
+color:black;
+font-weight:bold;
+padding:10px 20px;
+border-radius:8px;
+text-decoration:none;
+border:none;
+cursor:pointer;
+transition:0.3s;
+}
+
+
+#Experience{
+padding:40px;
+border-radius:10px;
+margin-top:40px;
+transition:0.3s;
+
+border-left:5px solid darkturquoise;
+padding:30px;
+margin-top:40px;
+}
+#Experience:hover{
+transform:translateY(-5px);
+box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+
+
+.btn:hover{
+background:greenyellow  ;
+transform:translateY(-3px);
+box-shadow:0 6px 15px rgba(0,0,0,0.4);
+}
+
+.skill-box:hover .html{
+width:90%;
+}
+
+.skill-box:hover .css{
+width:85%;
+}
+
+.skill-box:hover .bootstrap{
+width:80%;
+}
+
+.skill-box:hover .csharp{
+width:85%;
+}
+
+.skill-box:hover .asp{
+width:80%;
+}
+
+.skill-box:hover .sql{
+width:75%;
+}
+
+.skill-box:hover .git{
+width:80%;
+}
+
+.skill-box:hover .github{
+width:85%;
+}
+
+.edu-box{
+display:flex;
+align-items:center;
+gap:25px;
+justify-content:center;
+margin-top:20px;
+padding-bottom: 20px;
+}
+
+.edu-logo{
+width:200px;
+height:auto;
+}
+
+.edu-text{
+text-align:left;
+}
+
+
+
+
+    @media (max-width:1024px){
+
+    .Header .container{
+    padding:20px 40px;
+    }
+
+
+    #Hero .container{
+    gap:40px;
+    }
+
+    .Hero_Image img{
+    width:250px;
+    }
+
+
+    #Skills .container{
+    gap:40px;
+    }
+
+
+    #Project .container{
+    gap:40px;
+    }
+
+
+    #Project .divCont{
+    width:220px;
+    
+    }
+
+    }
+
+
+    
+
+    @media (max-width:768px){
+
+    .Header .container{
+    flex-direction:column;
+    gap:15px;
+    padding:20px;
+    text-align:center;
+    }
+
+    .Header nav{
+    flex-wrap:wrap;
+    justify-content:center;
+    }
+
+
+    #Hero .container{
+    flex-direction:column;
+    text-align:center;
+    }
+
+    .Hero_Text{
+    max-width:100%;
+    }
+
+    .Hero_Image{
+    margin-top:20px;
+    }
+
+    .Hero_Image img{
+    width:200px;
+    }
+
+
+    #About{
+    flex-direction:column;
+    text-align:center;
+    gap:30px;
+    }
+
+   #About a{
+display:inline-block;
+margin-top:20px;
+}
+
+
+    #Skills .container{
+    flex-direction:column;
+    gap:30px;
+    padding-right:0;
+    }
+
+
+    #Project .container{
+    flex-direction:column;
+    align-items:center;
+    }
+
+
+    #Project .divCont{
+    width:80%;
+    }
+
+    #Project .divCont img{
+    display:block;
+    margin:auto;
+    }
+
+    #Project .divCont p{text-align: center ;
+
+    padding-top: 15px;
+
+    }
+
+
+    #Experience .container{
+    text-align:center;
+font-size: 12px;
+}
+    #Experience .container li {
+
+font-size: 12px;
+
+    }
+
+
+
+    .btn{
+
+    align-items: center;
+    align-content: center;
+    }
+    .about{
+    display:flex;
+    justify-content:center;
+}
+
+.edu-logo{width: 50px;}
+.edu-text{
+    font-size: 10px;
+}
+
+#Skills ul{
+padding-left:20px;
+display:inline-block;
+text-align:left;
+}
+
+
+
+    }
+
+    .fade-in{
+opacity:0;
+transform:translateY(30px);
+animation:fadeUp 1s ease forwards;
+}
+
+@keyframes fadeUp{
+
+from{
+opacity:0;
+transform:translateY(30px);
+}
+
+to{
+opacity:1;
+transform:translateY(0);
+}
+}
+
+#About{animation-delay:0.2s;}
+#Skills{animation-delay:0.5s;}
+#Project{animation-delay:0.7s;}
+#Education{animation-delay:0.9s;}
+#Experience{animation-delay:1.5s;}
+.Contact{animation-delay:1.7s;}
+
+
+.typing{
+overflow:hidden;
+white-space:nowrap;
+width:0;
+
+animation:typing 3s steps(14) forwards, blink 0.7s infinite;
+}
+
+.typing2{
+color:#00e0ff;
+
+overflow:hidden;
+white-space:nowrap;
+border-right:3px solid #00e0ff;
+width:0;
+
+animation:typing2 3s steps(14) forwards, blink 0.7s infinite;
+animation-delay:3s;
+}
+
+@keyframes typing{
+
+from{
+width:0;
+}
+
+to{
+width:14ch;
+}
+
+}
+
+@keyframes typing2{
+
+from{
+width:0;
+}
+
+to{
+width:14ch;
+}
+
+}
+
+@keyframes blink{
+
+0%{border-color:transparent;}
+50%{border-color:#00e0ff;}
+100%{border-color:transparent;}
+
+}
+
+.fadeText{
+opacity:0;
+animation:showText 2s forwards;
+animation-delay:6s;
+}
+
+@keyframes showText{
+to{
+opacity:1;
+}
+}
+.top-btn{
+
+position: fixed;
+
+
+}
+
+.footer-container{
+
+margin-top: 20px;
+
+}
