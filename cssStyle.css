@@ -832,6 +832,9 @@ text-align:left;
 
 
 
+
+
+
     }
 
     .fade-in{
@@ -839,6 +842,9 @@ opacity:0;
 transform:translateY(30px);
 animation:fadeUp 1s ease forwards;
 }
+
+
+
 
 @keyframes fadeUp{
 
