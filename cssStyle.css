@@ -947,3 +947,21 @@ margin-top: 20px;
 #about:hover p {
   color: #00e0ff;
 }
+
+
+
+.divCont{
+    display: flex;
+    flex-direction: column;
+}
+
+.divCont p{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.github-link{
+    margin-top: auto;
+    padding-top: 15px;
+}
